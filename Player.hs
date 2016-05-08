@@ -4,10 +4,10 @@ import Data.Aeson (Object)
 
 
 version :: String
-version = "Default Haskell folding player"
+version = "Haskell - boring constant betting player"
 
 betRequest :: Object -> IO Int
-betRequest gameState = return 0
+betRequest gameState = return 10
 
 showdown :: Object -> IO ()
 showdown gameState = return ()
